@@ -23,53 +23,10 @@
 
 ## 👩‍💻 About Me
 
-I'm a Computer Science graduate from **COMSATS University Islamabad, Lahore Campus**, focused on the intersection of AI engineering, retrieval systems, and agentic AI.
+CS graduate from **COMSATS University Islamabad** building backend-heavy AI systems — RAG pipelines, knowledge graphs, and LLM-powered agents that reason and act.
+Open to roles in **AI/ML Engineering · Generative AI · Intelligent Systems**.
 
-My work centers on building practical, backend-heavy AI systems — from **RAG pipelines** and **knowledge graphs** to **LLM-powered agents** capable of multi-step reasoning and tool use. I care about the full picture: retrieval quality, observability, evaluation, and real-world reliability.
-
-```
-Current Focus:   AI/ML Engineering · Generative AI · RAG Systems · AI Agents
-Learning:        LangGraph · Advanced Retrieval · Agentic Workflows · Voice AI
-Interested in:   Roles in AI/ML Engineering, Generative AI, Intelligent Systems
-```
-
----
-
-## 🧠 What I Build
-
-*A system is only as good as what it can retrieve, reason over, and act upon.*
-
-<div align="center">
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                    AI ENGINEERING PIPELINE                       │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                  │
-│   Documents / Data                                               │
-│        │                                                         │
-│        ▼                                                         │
-│   [ Ingestion & Chunking ]  ──  Embeddings · Parsing            │
-│        │                                                         │
-│        ▼                                                         │
-│   [ Retrieval Layer ]  ──────  Dense · Sparse · Graph · Hybrid  │
-│        │                                                         │
-│        ▼                                                         │
-│   [ Reasoning / LLM ]  ──────  Prompt Engineering · Reranking   │
-│        │                                                         │
-│        ▼                                                         │
-│   [ Agent Orchestration ]  ──  LangGraph · Tool Use · Memory    │
-│        │                                                         │
-│        ▼                                                         │
-│   [ Response / Action ]  ────  APIs · Voice · External Services │
-│        │                                                         │
-│        ▼                                                         │
-│   [ Observability & Eval ]  ─  Langfuse · DeepEval · Metrics    │
-│                                                                  │
-└─────────────────────────────────────────────────────────────────┘
-```
-
-</div>
+![AI/ML](https://img.shields.io/badge/AI%2FML-Engineering-a78bfa?style=flat-square) ![Generative AI](https://img.shields.io/badge/Generative-AI-7c3aed?style=flat-square) ![RAG](https://img.shields.io/badge/RAG-Systems-6d28d9?style=flat-square) ![AI Agents](https://img.shields.io/badge/AI-Agents-5b21b6?style=flat-square) ![LangGraph](https://img.shields.io/badge/LangGraph-4c1d95?style=flat-square)
 
 ---
 
@@ -93,49 +50,9 @@ Interested in:   Roles in AI/ML Engineering, Generative AI, Intelligent Systems
 
 ## 🚀 Featured Projects
 
-### 🌐 LightRAG Explorer — *Simple RAG vs Graph RAG Comparison Platform*
+### 🌐 LightRAG Explorer
 
-> *"Most RAG systems treat documents as isolated chunks. LightRAG Explorer reveals the relationships between them."*
-
-<table>
-<tr>
-<td width="60%">
-
-**What it solves:** Standard vector RAG loses relational context between documents. This platform lets you directly compare flat retrieval against graph-based retrieval to see when and why Graph RAG wins.
-
-**Architecture highlights:**
-- **Simple RAG** pipeline using ChromaDB vector store
-- **LightRAG** graph-based retrieval with Neo4j knowledge graph
-- Five retrieval modes: `Naive` · `Local` · `Global` · `Hybrid` · `Mix`
-- Cross-document queries & multi-hop reasoning
-- Relationship-centric query support
-- Full **Langfuse** observability integration
-- Experiment snapshots for comparing retrieval runs
-- Interactive Neo4j graph visualization
-
-</td>
-<td width="40%" align="center">
-
-```
-  Documents
-      │
-  ┌───┴────────┐
-  │            │
-  ▼            ▼
-ChromaDB    Neo4j KG
-(Simple RAG) (LightRAG)
-  │            │
-  └─────┬──────┘
-        │
-   Comparison
-   Interface
-        │
-   Langfuse 📊
-```
-
-</td>
-</tr>
-</table>
+**What it solves:** Directly compare Simple RAG vs Graph RAG — exposing when and why graph-based retrieval wins over flat vector search for relational, multi-hop queries.
 
 **Stack:** `Python` `FastAPI` `React` `Vite` `Neo4j` `ChromaDB` `LightRAG` `Docker` `Langfuse`
 
@@ -143,99 +60,17 @@ ChromaDB    Neo4j KG
 
 ---
 
-### 💹 Financial RAG System — *Production-Style Financial Document QA*
+### 💹 Financial RAG System
 
-> *"Financial documents are dense, technical, and unforgiving of retrieval errors. This system is built to handle them."*
-
-<table>
-<tr>
-<td width="60%">
-
-**What it solves:** Financial document question-answering demands precision. Generic RAG setups miss crucial figures and context. This system combines multiple retrieval strategies with reranking to maximize answer quality.
-
-**Architecture highlights:**
-- **Hybrid retrieval** — Dense (BGE embeddings + FAISS) + Sparse (BM25)
-- **Reciprocal Rank Fusion (RRF)** for score normalization
-- **ColBERT reranking** for final result precision
-- Groq-powered LLM generation
-- Tavily web search integration
-- Langfuse tracing & DeepEval evaluation
-- FastAPI production backend
-
-</td>
-<td width="40%" align="center">
-
-```
-  Financial Docs
-        │
-  ┌─────┴──────┐
-  │            │
-  ▼            ▼
-FAISS (Dense)  BM25 (Sparse)
-  │            │
-  └─────┬──────┘
-        │ RRF Fusion
-        ▼
-   ColBERT Rerank
-        │
-      Groq LLM
-        │
-     Answer ✓
-```
-
-</td>
-</tr>
-</table>
+**What it solves:** Precise financial document QA using hybrid dense + sparse retrieval, RRF fusion, and ColBERT reranking — built for accuracy on technical, figure-heavy documents.
 
 **Stack:** `Python` `FastAPI` `FAISS` `BM25` `BGE Embeddings` `ColBERT` `RRF` `Groq` `Tavily` `Langfuse` `DeepEval`
 
 ---
 
-### 🎙️ Voice AI Agent — *Conversational AI with Agentic Tool Use*
+### 🎙️ Voice AI Agent
 
-> *"Not just a chatbot — an agent that listens, reasons, uses tools, and takes action."*
-
-<table>
-<tr>
-<td width="60%">
-
-**What it solves:** Most voice assistants follow rigid scripts. This agent uses LangGraph to orchestrate multi-step workflows, integrate with external services, and handle complex user goals through voice interaction.
-
-**Architecture highlights:**
-- LangGraph-powered agentic orchestration
-- Real-time communication via **WebSockets**
-- Gemini LLM for reasoning and response
-- Playwright for browser-based external service integration
-- **TTS** for voice output
-- JWT authentication & session management
-- PostgreSQL + SQLAlchemy + Redis for persistence & caching
-- React frontend with FastAPI backend
-
-</td>
-<td width="40%" align="center">
-
-```
-  Voice Input
-      │
-  WebSocket 🔗
-      │
-  LangGraph Agent
-  ┌───┴───────┐
-  │   Tools   │
-  ▼           ▼
-Playwright  External APIs
-  │           │
-  └─────┬─────┘
-        │
-      Gemini
-        │
-   TTS Response
-      🎙️
-```
-
-</td>
-</tr>
-</table>
+**What it solves:** A voice-driven AI agent that orchestrates multi-step workflows via LangGraph, uses tools to interact with external services, and responds through TTS in real time.
 
 **Stack:** `FastAPI` `React` `PostgreSQL` `SQLAlchemy` `Redis` `JWT` `WebSockets` `Gemini` `LangGraph` `LangChain` `Playwright` `TTS`
 
@@ -286,22 +121,6 @@ Playwright  External APIs
 
 ---
 
-## 📊 GitHub Activity
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Ayesha-Noor126&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a78bfa&icon_color=a78bfa&text_color=c9d1d9&rank_icon=github" alt="Ayesha's GitHub Stats" height="165"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ayesha-Noor126&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a78bfa&text_color=c9d1d9&langs_count=8" alt="Most Used Languages" height="165"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Ayesha-Noor126&theme=tokyo-night&bg_color=0d1117&color=a78bfa&line=6d28d9&point=a78bfa&hide_border=true" alt="GitHub Contribution Graph" width="100%"/>
-
-</div>
-
 ---
 
 ## 📬 Let's Connect
@@ -342,26 +161,6 @@ If you're working on something interesting at the intersection of **retrieval, r
 | `YOUR_LINKEDIN_URL` | ✅ Already set to your LinkedIn | Hero badges & Connect section |
 | `YOUR_EMAIL` | ✅ Already set to your email | Hero badges & Connect section |
 | `YOUR_PORTFOLIO_URL` | Your portfolio website URL (if you have one) | Hero badges & Connect section |
-| `Ayesha-Noor126` | Confirm this is your exact GitHub username | All `github-readme-stats` and graph URLs |
-
-## Optional Customizations
-
-**Add a profile photo** to the hero section — paste this inside the first `<div align="center">` block, right below the wave banner image:
-
-```html
-<img src="YOUR_IMAGE_URL" width="110" style="border-radius:50%; margin-top:-20px; border:3px solid #a78bfa;" alt="Ayesha Noor"/>
-```
-
-**Add more projects** — copy any project `<table>` block, fill in the new project details, and paste it after the last `---` divider in the Featured Projects section.
-
-**Update Tech Stack badges** — badge format:
-```
-![Name](https://img.shields.io/badge/Name-COLOR?style=flat-square&logo=LOGO_ID&logoColor=white)
-```
-Find logo IDs at [simpleicons.org](https://simpleicons.org/).
-
-**Change stats theme** — replace `theme=tokyonight` in the GitHub Stats URLs with: `dark`, `radical`, `merko`, `gruvbox`, `onedark`, `cobalt`, `synthwave`, `dracula`.
-
-**Change header/footer gradient** — edit the `color=0:HEX,50:HEX,100:HEX` value in the two `capsule-render` URLs.
+| `Ayesha-Noor126` | Confirm this is your exact GitHub username | Stats image URLs |
 
 </details>
