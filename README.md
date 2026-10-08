@@ -24,57 +24,12 @@
 ## 👩‍💻 About Me
 
 CS graduate from **COMSATS University Islamabad** building backend-heavy AI systems — RAG pipelines, knowledge graphs, and LLM-powered agents that reason and act.
-Open to roles in **AI/ML Engineering · Generative AI · Intelligent Systems**.
 
 ![AI/ML](https://img.shields.io/badge/AI%2FML-Engineering-a78bfa?style=flat-square) ![Generative AI](https://img.shields.io/badge/Generative-AI-7c3aed?style=flat-square) ![RAG](https://img.shields.io/badge/RAG-Systems-6d28d9?style=flat-square) ![AI Agents](https://img.shields.io/badge/AI-Agents-5b21b6?style=flat-square) ![LangGraph](https://img.shields.io/badge/LangGraph-4c1d95?style=flat-square)
 
 ---
 
-## 🔬 AI Engineering Focus
 
-<div align="center">
-
-| Domain | Technologies | Purpose |
-|:---|:---|:---|
-| **RAG Systems** | ChromaDB · FAISS · BM25 · RRF · LightRAG | Retrieval quality & hybrid search |
-| **Graph RAG** | Neo4j · LightRAG | Relationship-centric multi-hop reasoning |
-| **LLM Integration** | OpenAI · Gemini · Groq · Hugging Face | Generation & structured outputs |
-| **AI Agents** | LangChain · LangGraph · Playwright | Agentic workflows & tool orchestration |
-| **Voice AI** | WebSockets · TTS · Gemini | Real-time voice interaction |
-| **Observability** | Langfuse · DeepEval | LLM evaluation & tracing |
-| **Backend** | FastAPI · PostgreSQL · Redis · Docker | Production-ready AI system backends |
-
-</div>
-
----
-
-## 🚀 Featured Projects
-
-### 🌐 LightRAG Explorer
-
-**What it solves:** Directly compare Simple RAG vs Graph RAG — exposing when and why graph-based retrieval wins over flat vector search for relational, multi-hop queries.
-
-**Stack:** `Python` `FastAPI` `React` `Vite` `Neo4j` `ChromaDB` `LightRAG` `Docker` `Langfuse`
-
-[![View Project](https://img.shields.io/badge/View%20on%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ayesha-Noor126/LightRAG-Explorer)
-
----
-
-### 💹 Financial RAG System
-
-**What it solves:** Precise financial document QA using hybrid dense + sparse retrieval, RRF fusion, and ColBERT reranking — built for accuracy on technical, figure-heavy documents.
-
-**Stack:** `Python` `FastAPI` `FAISS` `BM25` `BGE Embeddings` `ColBERT` `RRF` `Groq` `Tavily` `Langfuse` `DeepEval`
-
----
-
-### 🎙️ Voice AI Agent
-
-**What it solves:** A voice-driven AI agent that orchestrates multi-step workflows via LangGraph, uses tools to interact with external services, and responds through TTS in real time.
-
-**Stack:** `FastAPI` `React` `PostgreSQL` `SQLAlchemy` `Redis` `JWT` `WebSockets` `Gemini` `LangGraph` `LangChain` `Playwright` `TTS`
-
----
 
 ## 🛠️ Tech Stack
 
@@ -121,8 +76,6 @@ Open to roles in **AI/ML Engineering · Generative AI · Intelligent Systems**.
 
 ---
 
----
-
 ## 📬 Let's Connect
 
 <div align="center">
@@ -144,23 +97,3 @@ If you're working on something interesting at the intersection of **retrieval, r
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=100&section=footer" alt="footer wave" width="100%"/>
 
 </div>
-
----
-
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!--              HOW TO CUSTOMIZE THIS README                     -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-
-<details>
-<summary>🔧 How to Customize This README</summary>
-
-## Placeholders to Replace
-
-| Placeholder | What to replace it with | Where |
-|---|---|---|
-| `YOUR_LINKEDIN_URL` | ✅ Already set to your LinkedIn | Hero badges & Connect section |
-| `YOUR_EMAIL` | ✅ Already set to your email | Hero badges & Connect section |
-| `YOUR_PORTFOLIO_URL` | Your portfolio website URL (if you have one) | Hero badges & Connect section |
-| `Ayesha-Noor126` | Confirm this is your exact GitHub username | Stats image URLs |
-
-</details>
