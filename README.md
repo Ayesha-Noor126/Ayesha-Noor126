@@ -25,11 +25,9 @@
 
 CS graduate from **COMSATS University Islamabad** building backend-heavy AI systems — RAG pipelines, knowledge graphs, and LLM-powered agents that reason and act.
 
-![AI/ML](https://img.shields.io/badge/AI%2FML-Engineering-a78bfa?style=flat-square) ![Generative AI](https://img.shields.io/badge/Generative-AI-7c3aed?style=flat-square) ![RAG](https://img.shields.io/badge/RAG-Systems-6d28d9?style=flat-square) ![AI Agents](https://img.shields.io/badge/AI-Agents-5b21b6?style=flat-square) ![LangGraph](https://img.shields.io/badge/LangGraph-4c1d95?style=flat-square)
+![AI/ML](https://img.shields.io/badge/AI%2FML-Engineering-a78bfa?style=flat-square) ![Generative AI](https://img.shields.io/badge/Generative-AI-7c3aed?style=flat-square) ![RAG](https://img.shields.io/badge/RAG-Systems-6d28d9?style=flat-square) ![AI Agents](https://img.shields.io/badge/AI-Agents-5b21b6?style=flat-square) ![LangGraph](https://img.shields.io/badge/LangGraph-4c1d95?style=flat-square) ![Voice AI](https://img.shields.io/badge/Voice-AI-3730a3?style=flat-square)
 
 ---
-
-
 
 ## 🛠️ Tech Stack
 
@@ -80,9 +78,7 @@ CS graduate from **COMSATS University Islamabad** building backend-heavy AI syst
 
 <div align="center">
 
-I'm actively looking for opportunities in **AI/ML Engineering**, **Generative AI**, and **Intelligent Systems** — at product companies, AI-focused startups, and international clients.
-
-If you're working on something interesting at the intersection of **retrieval, reasoning, and agents**, I'd love to talk.
+If you're working on something interesting at the intersection of **retrieval, reasoning, agents, or voice AI**, I'd love to talk.
 
 [![LinkedIn](https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayesha-noor-a4b305343/)
 [![Email](https://img.shields.io/badge/Send%20an%20Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:noorayesha0123456@gmail.com)
